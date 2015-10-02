@@ -1,0 +1,63 @@
+ul, li {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	direction: rtl;
+	text-align:right;
+	margin-bottom: 30px;
+}
+
+header {
+	hight:50px;
+}
+
+header h1 {
+	font-family:Tahoma;
+	font-size: 48px;
+}
+
+article h2 {
+	font-family: Arial;
+	font-size: 36px;
+}
+
+article h3 {
+	font-family: Tahoma;
+	font-size: 20px;
+	font-style: italic;
+}
+article p {
+	font-family: "India Flower";
+	font-size: 14px;
+}
+
+.container {
+	position:relative;
+	
+}
+
+nav {
+	float: right;
+	max-width: 150px;
+	margin: 0 auto;
+	padding: 30px;
+	border: solid 2px red;
+	
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+article {
+	top:0px;
+		
+}
+
+footer{
+	position:fixed;
+	right: 0px;
+	bottom: 0px;
+}
