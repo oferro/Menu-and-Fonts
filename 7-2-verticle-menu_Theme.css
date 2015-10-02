@@ -32,7 +32,8 @@ nav ul {
 
 nav ul li {
 	display: block;
-	margin: 10px;
+	margin-right: 10px;
+	font: 14px Tahoma;
 }
 
 footer{
