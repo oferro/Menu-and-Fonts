@@ -3,9 +3,10 @@ body {
 	text-align: right;
 	margin-bottom: 30px;
 }
-
+	
 ul, li, a {
 	margin: 0px;
+	padding: 0px;
 }
 
 .container {
@@ -16,12 +17,10 @@ ul, li, a {
 }
 
 nav {
-	position: relative;
-	top: 0px right :0px
-	width: 100px;
+
 	border: solid 2px blue;
 	padding: 10px;
-	float: right;
+	
 }
 
 nav ul {
@@ -33,9 +32,6 @@ nav ul li {
 	padding: 10px;
 }
 
-article {
-	position: relative;
-}
 
 .lin-hed {
 	font-weight: bold;

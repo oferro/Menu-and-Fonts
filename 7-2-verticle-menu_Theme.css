@@ -6,6 +6,7 @@ body {
 
 ul, li, a {
 	margin: 0px;
+	padding: 0px;
 }
 
 .container {
@@ -30,7 +31,7 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
+	display: block;
 	margin: 10px;
 }
 
