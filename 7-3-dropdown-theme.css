@@ -1,0 +1,77 @@
+body {
+	direction: rtl;
+	text-align: right;
+}
+
+.container {
+		margin-bottom: 30px;
+}
+
+header {
+	max-width: 800 px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font: 48px bold Tahoma;
+}
+
+nav {
+	margin: 0px;
+	max-width: 800px;
+}
+
+.mnulvl-1 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position:relative;
+	display: block;
+}
+
+.mnulvl-1 li {
+	float: right;
+	list-style: none;
+	background-color:blue;
+}
+
+.mnulvl-1 li a {
+	color:yellow;
+	display:block;
+	padding: 20px 10px;
+	
+}
+
+.mnulvl-1 li:hover > ul {
+	display:list-item;
+}
+
+.mnulvl-2 {
+	display:none;
+	position:absolute;
+	top:60px;
+}
+
+.mnulvl-2 li {
+	width:170px;
+	float:none;
+	position:relative;
+}
+
+
+
+footer {
+	position:fixed;
+	bottom: 0;
+	right: 40%;
+}
+
+article h2 {
+	clear: right;
+}
+
+h2 a {
+	font: 1.5en bold;
+	
+}
+
