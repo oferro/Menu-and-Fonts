@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "india-flower";
+	ser: url("fonts/IndiaFlower.ttf") format("truetype");
+}
+
+body {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+h1 {
+	font: 48px Tahoma;
+}
+
+#txt-shd {
+	font: 48px bold india-flower;
+	text-shadow: 2px 2px red;
+}
+
+#txt {
+	font: 24px india-flower;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	line-height: 150%;
+}
+
+footer {
+	position:fixed;
+	bottom: 0;
+	right: 40%;
+}
+
