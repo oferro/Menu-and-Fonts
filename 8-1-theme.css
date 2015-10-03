@@ -9,10 +9,6 @@ body{
 	margin-bottom: 30px;
 }
 
-header {
-	hight:50px;
-}
-
 header h1 {
 	font-family:Tahoma;
 	font-size: 48px;
@@ -41,7 +37,7 @@ article p {
 nav {
 	float: right;
 	max-width: 150px;
-	margin: 0 auto;
+	margin: 0 0 0 10px;
 	padding: 30px;
 	border: solid 2px red;
 	
